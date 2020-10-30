@@ -1,0 +1,948 @@
+*{margin: 0; padding: 0;}
+body{
+    font-size: 14px;    
+}
+section{
+    padding:100px 0px;
+}
+
+.logoimage {
+    width: 175px;
+    float: left;
+}
+
+header#corporXdesc {
+    overflow: hidden;
+    background: linear-gradient(to right ,#1A2C79 30%,#dddddd47),url(hero-bg5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.logowrapper {
+    padding: 20px 0px;
+    margin-bottom: 100px;
+    display: table;
+}
+
+.menu {width: 990px;float: left;}
+ul.mainMenu {
+    margin-left: 400px;
+}
+
+ul.mainMenu li {
+    list-style: none;
+    float: left;
+    padding: 10px 23px;
+    color: white;
+    position: relative;
+}
+ul.mainMenu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.headDEsc {
+    width: 700px;
+    overflow: hidden;
+    color: #eee;
+}
+
+.headDEsc span {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.headDEsc h1 {
+    font-size: 45px;
+    font-family: arial;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.headDEsc p {
+    font-size: 20px;
+    font-weight: 700;
+    width: 670px;
+    margin-bottom: 40px;
+}
+
+ul.headdescList {
+    line-height: 40px;
+    margin-bottom: 180px;
+}
+
+ul.headdescList li {
+    list-style: none;
+    font-size: 18px;
+}
+ul.headdescList i {
+    font-size: 14px;
+    margin-right: 5px;
+    width: 13px;
+    height: 13px;
+    border: 1px solid #ddd;
+    display: grid;
+    border-radius: 100%;
+    padding: 2px;
+    float: left;
+    margin-top: 10px;
+}
+ul.subMenu {
+    list-style: none;
+    width: 215px;
+    background: white;
+    border-radius: 5px;
+    position: absolute;
+    top: 50px;
+    left: -2px;
+    padding: 0px;
+    visibility: hidden;
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: .5s;
+}
+
+ul.subMenu li {
+    list-style: none;
+    float: none;
+    color: #666;
+    display: block;
+    padding: 10px 15px;
+    transition:.5s;
+
+}
+
+ul.subMenu li a {
+    color: #666;
+    padding: 10px 0px;
+    display: block;
+    line-height: 0;
+    padding-right: 0px;
+}
+
+nav#mainNav {
+    display: table;
+}
+ul.subMenu li:hover{
+    background: darkblue;
+    
+}
+ul.subMenu li:hover a{
+    color:#eee;
+}
+ul.subMenu:after {
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: 35px;
+    transform: rotate(45deg);
+    border-bottom: 15px solid #00000000;
+    border-left: 15px solid white;
+}
+ul.mainMenu li:hover .subMenu {
+    visibility: visible;
+    opacity: 1;
+    transform: scaleY(1);
+}
+.sliderBAr {
+    width: 10px;
+    height: 10px;
+    border: 4px solid #ddd;
+    display: grid;
+    border-radius: 100%;
+    position: absolute;
+    top: 610px;
+    right: 288px;
+    background: #e8056600;
+    cursor: pointer;
+    margin-right: 2px;
+}
+.sliderBAr2 {
+    width: 10px;
+    height: 11px;
+    border: 4px solid #ddd;
+    display: grid;
+    border-radius: 100%;
+    position: absolute;
+    top: 610px;
+    right: 266px;
+    background: #e805660a;
+    cursor: pointer;
+    margin-right: 2px;
+}
+
+.sliderBAr3 {
+    width: 10px;
+    height: 11px;
+    border: 4px solid #ddd;
+    display: grid;
+    border-radius: 100%;
+    position: absolute;
+    top: 610px;
+    right: 245px;
+    background: #e80566;
+    cursor: pointer;
+}
+.aboutusImage {
+    width: 580px;
+    float: left;
+}
+
+section#aboutDesc {
+    overflow: hidden;
+}
+
+.aboutusImage img {
+    max-width: 100%;
+}
+
+.aboutusInfoWrapper {
+    width: 525px;
+    float: right;
+    margin-left: 15px;
+    overflow: hidden;
+}
+
+.aboutusInfo {
+    width: 455px;
+    margin-top: 15px;
+}
+
+.aboutusInfo h1 {
+    font-size: 40px;
+    font-family: arial;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.aboutusInfo p {
+    color: #666;
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+.aboutourGoal {
+    overflow: hidden;
+}
+
+ul.goalMain li {
+    float: left;
+    list-style: none;
+    padding: 0px 20px;
+    padding-left: 0px;
+    margin-right: 15px;
+}
+
+ul.goalMain {
+    margin-bottom: 5px;
+    position: relative;
+    /* overflow: hidden; */
+    display: block;
+    padding: 14px 0px;
+    padding-top: 0px;
+    display: table;
+}
+
+ul.goalMain li a {
+    text-decoration: none;
+    color: #14287f;
+    font-size: 17px;
+    font-family: sans-serif;
+    transition: .1s;
+}
+p.goalText {
+    width: 445px;
+    font-size: 17px;
+    color: #666;
+    line-height: 25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.workingLIst {
+    overflow: hidden;
+}
+
+ul.workMAin {
+    width: 350px;
+}
+
+ul.workMAin li {
+    list-style: none;
+    line-height: 40px;
+    font-size: 16px;
+    color: #666;
+}
+
+ul.workMAin li i {
+    font-size: 14px;
+    margin-right: 6px;
+    width: 13px;
+    height: 13px;
+    border: 1px solid #e8057f;
+    display: grid;
+    border-radius: 100%;
+    padding: 2px;
+    float: left;
+    margin-top: 10px;
+    color: #e8057f;
+}
+ul.goalMain li a:after {
+    content: "";
+    width: 45px;
+    border-bottom: 2px solid #666;
+    position: absolute;
+    top: 25px;
+    transform: translateX(-90px);
+}
+ul.goalMain li:first-child a{
+    color: #e80566;
+}
+ul.goalMain li:first-child a:after{
+    content: "";
+    width: 85px;
+    border-bottom: 2px solid #e80566;
+    position: absolute;
+    top: 25px;
+    transform: translateX(-85px);
+}
+ul.goalMain li:nth-child(3) a:after{
+    content: "";
+    width: 45px;
+    border-bottom: 2px solid #666;
+    position: absolute;
+    top: 25px;
+    transform: translateX(-75px);
+}
+ul.goalMain li a:hover{
+    color: #e80566;;
+}
+section#serviceProvider {
+    background: #f6f6f6;
+    overflow: hidden;
+}
+
+.serviceDesc {
+    text-align: center;
+}
+
+.serviceDesc h1 {
+    font-size: 40px;
+    font-family: arial;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.serviceDesc p {
+    font-size: 20px;
+    width: 733px;
+    margin: auto;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.servicesingleBoxes {
+    overflow: hidden;
+    width: 350px;
+    float: left;
+    margin-bottom: 50px;
+    margin-right: 35px;
+}
+
+.serviceIcons {
+    text-align: center;
+    font-size: 30px;
+    color: #d40c77;
+    margin-bottom: 10px;
+}
+
+.snglboxInfo h3 {
+    text-align: center;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: arial;
+}
+
+.snglboxInfo p {
+    text-align: center;
+    font-size: 17px;
+    width: 305px;
+    margin: auto;
+    color: #666;
+    line-height: 25px;
+}
+#traffic{
+    background: linear-gradient(to right,#1a2c79d1,#c41f72de),url(slider-img-3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    color: #eceaea;
+}
+.trafficDesc {text-align: center;margin-bottom: 50px;}
+
+.trafficDesc h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-family: arial;
+}
+
+.trafficDesc p {
+    font-size: 18px;
+    /* font-weight: 600; */
+    width: 660px;
+    text-align: center;
+    margin: auto;
+    line-height: 28px;
+    font-family: arial;
+}
+
+.trafficsnglWrapper {
+    width: 245px;
+    overflow: hidden;
+    text-align: center;
+    border: 1px dashed #ddd;
+    padding: 20px 10px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+
+.trafficIcons {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.trafficsnglinfO h2 {
+    font-size: 35px;
+    font-family: arial;
+    margin-bottom: 5px;
+}
+
+.trafficsnglinfO span {
+    font-size: 18px;
+    letter-spacing: .5px;
+}
+.trafficsnglWrapper:last-child {
+    margin-right: 0px;
+}
+section#servicedeliveryProgress {
+    overflow: hidden;
+    background: #f6f6f6;
+    margin-left: 15px;
+}
+
+.serviceInfo h1 {
+    font-size: 38px;
+    font-family: arial;
+    margin-bottom: 15px;
+}
+
+.serviceInfo p {
+    width: 710px;
+    font-size: 20px;
+    color: #777;
+    line-height: 25px;
+    font-family: sans-serif;
+}
+
+.serviceInfo {
+    margin-bottom: 35px;
+}
+.servicedeliveryBoxes {
+    overflow: hidden;
+    width: 250px;
+    float: left;
+    margin-right: 40px;
+}
+.servicedlvryIcons {
+    font-size: 30px;
+    width: 80px;
+    height: 80px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #1a2c79;
+    border-radius: 100%;
+    background: #1a2c79;
+    color: white;
+    padding: 10px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.srvcdlvrysnglInfo h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    font-family: arial;
+}
+
+.srvcdlvrysnglInfo p {
+    font-size: 17px;
+    color: #666;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+.srvciconsnumber {
+    width: 30px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #e2dede;
+    border-radius: 100%;
+    position: absolute;
+    top: -5px;
+    left: 70px;
+    font-size: 18px;
+    background: white;
+    color: #1a2c79;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.servicedeliveryBoxes:last-child {
+    margin-right: 0px;
+}
+section#testimonials {
+    overflow: hidden;
+}
+
+.testimonialDesc {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.testimonialDesc h1 {
+    font-size: 38px;
+    font-family: arial;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.testimonialDesc p {
+    font-size: 18px;
+    width: 689px;
+    font-family: sans-serif;
+    margin: auto;
+    color: #666;
+    line-height: 25px;
+}
+
+.testimonialInfoboX {
+    overflow: hidden;
+    width: 340px;
+    background: #f6f6f6;
+    border: 1px solid #f6f6f6;
+    padding: 20px 20px;
+    padding-right: 0px;
+    border-radius: 4px;
+    margin-right: 28px;
+    float: left;
+}
+
+.testimonialInfoboX p {
+    font-size: 16px;
+    font-family: sans-serif;
+    width: 345px;
+    line-height: 25px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.clientImage img {
+    width: 100%;
+}
+
+.clientImage {
+    width: 60px;
+    height: 60px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #f6f6f6;
+    border-radius: 100%;
+    overflow: hidden;
+    float: left;
+    margin-right: 15px;
+}
+
+.clientsName {
+    overflow: hidden;
+    width: 135px;
+    float: left;
+    margin-right: 25px;
+}
+
+.clientsName h3 {
+    font-size: 18px;
+    font-family: arial;
+    margin-bottom: 6px;
+}
+
+.clientsName span {
+    font-size: 15px;
+    color: #666;
+}
+.reviewicons {
+    font-size: 12px;
+    color: #ff7c3f;
+    margin-bottom: 8px;
+}
+
+.clienTreview span {
+    font-size: 16px;
+    color: #666;
+}
+.sliderIcons {
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    margin-top: 280px;
+}
+
+.sliderIcons span {
+    border: 1px dashed #ddd;
+    padding: 7px 11px;
+    font-size: 15px;
+    color: #dd0767;
+    margin-right: 5px;
+    border-radius: 3px;
+    transition: .3s;
+}
+.sliderIcons span:hover{
+    background:#dd0767;
+    color: white;
+    border: 1px solid #dd0767;
+    cursor: pointer;
+}
+section#latestNews {
+    overflow: hidden;
+    background: #f6f6f6;
+}
+
+.latestnewsdesC h2 {
+    font-family: arial;
+    font-size: 45px;
+    word-spacing: 5px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.latestnewsdesC p {
+    font-size: 23px;
+    color: #666;
+    width: 750px;
+    line-height: 30px;
+}
+
+.latestnewsdesC {
+    margin-bottom: 30px;
+}
+
+.ltstnwsinfoBox {
+    overflow: hidden;
+    width: 350px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0 BLACK;
+    float: left;
+    margin-right: 30px;
+}
+
+.newsImage img {
+    width: 100%;
+}
+
+.newsImage {
+    position: relative;
+    cursor: pointer;
+}
+.newsInfo h2 {
+    font-size: 21px;
+    margin-bottom: 10px;
+    font-family: arial;
+}
+
+.newsInfo {
+    padding: 10px 15px;
+    transition: .5s;
+}
+
+.newsInfo h2 a {
+    color: #1a2c79;
+    text-decoration: none;
+}
+.newsInfo h2 a:hover{
+    color: #d40c77;
+}
+
+.newsInfo p {
+    font-size: 16px;
+    font-family: sans-serif;
+    width: 285px;
+    color: #666;
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+
+.newsmetaWrapper {
+    overflow: hidden;
+    background: #f0f0f0;
+    padding: 15px 20px;
+    border: 1px solid #f7f7f7;
+}
+
+.metaIcon {
+    width: 35px;
+    height: 35px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #e8e7e7;
+    border-radius: 100%;
+    background: white;
+    color: #666;
+    padding: 5px;
+    font-size: 15px;
+    float: left;
+    margin-right: 10px;
+}
+.metaDateinfo {
+    width: 200px;
+    float: left;
+    padding-top: 5px;
+}
+
+.metaDateinfo h3 {
+    font-size: 16px;
+    font-family: arial;
+    margin-bottom: 5px;
+}
+
+.metaDateinfo h3 a {
+    color: #1a2c79;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.metaDateinfo span {
+    font-size: 13px;
+    font-family: sans-serif;
+    color: #666;
+}
+
+.sharemetaIcon {
+    width: 50px;
+    float: right;
+    padding-top: 15px;
+    color: #1a2c79;
+}
+
+.sharemetaIcon i {
+    font-size: 18px;
+}
+
+.sharemetaIcon span {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.newsbsnspoint {
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    border: 1px solid #1a2c79;
+    color: white;
+    background: #1a2c79;
+    padding: 5px 15px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 2px;
+    transition: .1s;
+}
+.newsImage:hover .newsbsnspoint{
+    background: #d40c77;
+    border: 1px solid #d40c77;
+    cursor: pointer;
+}
+.metaDateinfo h3 a:hover{
+    color: #d40c77;
+}
+.sharemetaIcon:hover{
+    color: #d40c77;
+    cursor: pointer;
+}
+footer#consultingandLinks {
+    overflow: hidden;
+}
+
+.consultInfo {
+    width: 800px;
+    float: left;
+}
+
+.consultInfo h1 {
+    font-size: 40px;
+    font-family: arial;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.consultDescWrapper {
+    overflow: hidden;
+    background: white;
+    padding: 35px 25px;
+}
+
+.consultInfo p {
+    font-size: 19px;
+    font-family: sans-serif;
+    color: #666;
+}
+.contactBtn {
+    width: 130px;
+    float: right;
+    background: #d40c77;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #d40c77;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+.contactBtn:hover{
+    background: white;
+    cursor: pointer;
+    
+}
+.contactBtn:hover a{
+    color: #d40c77;
+}
+
+.contactBtn a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    transition: .3s;
+}
+.usefulInfosandLinkswrapper {
+    overflow: hidden;
+    background: linear-gradient(to right,#1a2c79 15%,#d40277);
+    color: white;
+    padding: 40px 30px;
+}
+
+.quickLinks {
+    width: 1200px;
+    margin: auto;
+}
+.quicklnkssuto {
+    /* overflow: hidden; */
+    width: 240px;
+    float: left;
+    /* margin-right: 29px; */
+}
+
+.quicklnkssuto h2 {
+    font-size: 16px;
+    margin-bottom: 25px;
+    font-family: arial;
+}
+
+ul.quicklnklistS li {
+    line-height: 30px;
+    list-style: none;
+}
+
+ul.quicklnklistS li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #cbc8c8;
+    transition: .3s;
+}
+ul.quicklnklistS li a:hover{
+    color: white;
+}
+.copywriteSec {
+    background: #e6e3e3;
+    padding: 25px 20px;
+    padding-bottom: 35px;
+}
+
+.copywrite {
+    width: 800px;
+    font-size: 16px;
+    color: #555;
+    float: left;
+    /* margin-left: 170px; */
+    position: relative;
+}
+
+
+.consultLinks a {
+    padding: 0px 15px;
+    font-size: 15px;
+    color: #1a2c79;
+    text-decoration: none;
+    transition: .3s;
+    position: relative;
+}
+.quicklnkssuto:last-child{
+    margin-right: 0px;
+}
+.getinLocations p {
+    font-size: 15px;
+    font-family: sans-serif;
+    line-height: 40px;
+}
+.getinLocations {
+    width: 260px;
+}
+
+.getinLocations i {
+    margin-right: 4px;
+}
+.consultLinks a:hover{
+    color: #dd0767;
+}
+.consultLinks span {
+    background: #ffffff;
+    color: #1a2c79;
+    border: 1px solid white;
+    position: absolute;
+    top: -60px;
+    left: -13px;
+    padding: 10px;
+    visibility: hidden;
+     opacity: 0; 
+    transition: .01s;
+}
+.consultLinks span:after {
+    content: "";
+    position: absolute;
+    border-bottom: 12px solid #ffffff;
+    border-left: 12px solid #fbfbfb00;
+    transform: rotate(45deg);
+    top: 30px;
+    left: 26px;
+}
+.consultLinks a:hover span {
+    visibility: visible;
+    opacity: 1;
+}
+.consultLinks {
+    width: 185px;
+    float: right;
+    position: relative;
+}
+.quicklnkcontainer{
+    width: 1170px;
+    margin: auto;
+}
